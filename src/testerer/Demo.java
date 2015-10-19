@@ -5,25 +5,26 @@ public class Demo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		int a = 9;
+		int b = 5;
 		
-int wert = 60;
 		
-		int i = 2;
 		
-		while (i <=9)
-		{
-			wert = wert * i;
-			System.out.println(wert);
-			i++;
-			
-		}
-		i=2;
-		while (i <=9)
-		{
-			wert = wert / i;
-			System.out.println(wert);
-			i++;
-		}
+
+		System.out.println("a=9, b=5");
+		
+		System.out.println(a + " + " + b + " = "+(a+b));
+
+		System.out.println(a + " - " + b + " = "+(a-b));
+
+		System.out.println(a + " x " + b + " = "+(a*b));
+		
+		System.out.println(a + " / " + b + " = "+(a/b));
+		
+		System.out.println(a + " % " + b + " = "+(a%b));
+
+
+
 	}
 
 }
